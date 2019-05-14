@@ -1,0 +1,18 @@
+<h2>Popularisimos  Films</h2>
+
+   
+ 
+<div class="listado">
+  {{#each films}}
+   <div class="card" >
+        <div class="card-image">
+          <img src="{{posterurl}}">
+          <span class="card-title">{{title}}</span>
+        </div>
+        <div class="card-content">
+          {{storyline}}
+        </div>
+        
+      </div>
+    {{/each}}   
+</div>
